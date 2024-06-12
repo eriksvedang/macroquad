@@ -26,7 +26,7 @@ opt-level = 3
 all-features = true
 
 [dependencies]
-miniquad = { version = "=0.4.2", features = ["log-impl"] }
+miniquad = { version = "=0.4.2", features = ["log-impl"], path = "../miniquad-fork" }
 quad-rand = "0.2.1"
 glam = {version = "0.27", features = ["scalar-math"] }
 image = { version = "0.24", default-features = false, features = ["png", "tga"] }
@@ -52,4 +52,3 @@ macroquad = { path = './' }
 #quad-snd = {path = '../quad-snd'}
 #miniquad = { path = '../miniquad' }
 #quad-gl = {path = './quad-gl'}
-
